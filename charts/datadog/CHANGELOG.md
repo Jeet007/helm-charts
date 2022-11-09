@@ -1,5 +1,9 @@
 # Datadog changelog
 
+## 3.3.2
+
+* Add CO-RE configuration values `datadog.systemProbe.btfPath` and `datadog.systemProbe.enableCORE` (see datadog-agent PRs #13962 and #14096 for more context).
+
 ## 3.3.1
 
 * Remove `mountPropagation` for `*-release` files in `/etc`. It is not needed for individual files.
