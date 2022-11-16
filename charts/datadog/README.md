@@ -693,9 +693,7 @@ helm install <RELEASE_NAME> \
 | datadog.systemProbe.enableConntrack | bool | `true` | Enable the system-probe agent to connect to the netlink/conntrack subsystem to add NAT information to connection data |
 | datadog.systemProbe.enableDefaultKernelHeadersPaths | bool | `true` | Enable mount of default paths where kernel headers are stored |
 | datadog.systemProbe.enableDefaultOsReleasePaths | bool | `true` | enable default os-release files mount |
-| datadog.systemProbe.enableKernelHeaderDownload | bool | `true` | Enable the downloading of kernel headers for runtime compilation of eBPF probes |
 | datadog.systemProbe.enableOOMKill | bool | `false` | Enable the OOM kill eBPF-based check |
-| datadog.systemProbe.enableRuntimeCompiler | bool | `false` | Enable the runtime compiler for eBPF probes |
 | datadog.systemProbe.enableTCPQueueLength | bool | `false` | Enable the TCP queue length eBPF-based check |
 | datadog.systemProbe.maxTrackedConnections | int | `131072` | the maximum number of tracked connections |
 | datadog.systemProbe.mountPackageManagementDirs | list | `[]` | Enables mounting of specific package management directories when runtime compilation is enabled |
